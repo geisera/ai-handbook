@@ -42,7 +42,7 @@ npm install
 
     __Be sure your environment is an actual environment given to you by Pinecone, like `gcp-starter`__
 
-4. (Optional) - Add your own custom text or markdown files into the `/documents` folder. Currently, this app will search our employee handbook.
+4. (Optional) - Add your own custom text or markdown or text files into the `/documents` folder. Currently, this app will search our employee handbook.
 
 5. Run the app:
 
