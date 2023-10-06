@@ -1,0 +1,102 @@
+[
+    {
+    "id": 1,
+    "account_name": "Bluejam",
+    "quote": 10215,
+    "address": {
+        "city": "Leeuwarden",
+        "state": "Yanac",
+        "street": "Aberg",
+        "street_number": "79"
+    },
+    "start_date": "05/06/2022",
+    "term": 58,
+    "status": "Activated",
+    "4_letters": "WICM",
+    "networkId": "GS.WICM",
+    "quantity": 5,
+    "4_digits": 8423,
+    "customer_order": "00008423",
+    "product": "Included IPv4 Static IP Address"
+    }, 
+    {
+    "id": 2,
+    "account_name": "Muxo",
+    "quote": 89040,
+    "address": {
+        "city": "Yanjiang",
+        "state": "Cantuk Kidul",
+        "street": "Jay",
+        "street_number": "01"
+    },
+    "start_date": "06/20/2022",
+    "term": 38,
+    "status": "Cancel",
+    "4_letters": "CYHE",
+    "networkId": "GS.CYHE",
+    "quantity": 2,
+    "4_digits": 9459,
+    "customer_order": "00009459",
+    "product": "Included IPv4 Static IP Address"
+    }, 
+    {
+    "id": 3,
+    "account_name": "Gigazoom",
+    "quote": 67842,
+    "address": {
+        "city": "Al Madīd",
+        "state": "Beranci",
+        "street": "Sachtjen",
+        "street_number": "22"
+    },
+    "start_date": "12/22/2021",
+    "term": 52,
+    "status": "Draft",
+    "4_letters": "KCRP",
+    "networkId": "GS.KCRP",
+    "quantity": 12,
+    "4_digits": 3746,
+    "customer_order": "00003746",
+    "product": "Flex Business - Up to 100 x 50 Mbps"
+    }, 
+    {
+    "id": 4,
+    "account_name": "Skipfire",
+    "quote": 51915,
+    "address": {
+        "city": "Barão de Cocais",
+        "state": "Ghurayd Gharamē",
+        "street": "Park Meadow",
+        "street_number": "34410"
+    },
+    "start_date": "04/03/2022",
+    "term": 31,
+    "status": "Cancel",
+    "4_letters": "MMNG",
+    "networkId": "GS.MMNG",
+    "quantity": 16,
+    "4_digits": 2254,
+    "customer_order": "00002254",
+    "product": "Business Line with Voice Features"
+    }, 
+    {
+    "id": 5,
+    "account_name": "Edgeblab",
+    "quote": 36777,
+    "address": {
+        "city": "Zhengchang",
+        "state": "Tumxuk",
+        "street": "Anderson",
+        "street_number": "32218"
+    },
+    "start_date": "11/22/2021",
+    "term": 29,
+    "status": "Draft",
+    "4_letters": "LIDB",
+    "networkId": "GS.LIDB",
+    "quantity": 7,
+    "4_digits": 620,
+    "customer_order": "0000620",
+    "product": "One Voice Business Line Solution"
+    }
+]
