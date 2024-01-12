@@ -10,12 +10,16 @@ export const queryPineconeVectorStoreAndQueryLLM = async (
   indexName,
   question
 ) => {
+
   // 1. Start query process
   console.log('Querying Pinecone vector store...');
+
   // 2. Retrieve the Pinecone index
   const index = client.Index(indexName);
+
   // 3. Create query embedding
-  const queryEmbedding = await new OpenAIEmbeddings().embedQuery(question)
+  const queryEmbedding = await new OpenAIEmbeddings().embedQuery(question);
+
   // 4. Query Pinecone index and return top 10 matches
   let queryResponse = await index.query({
     queryRequest: {
@@ -25,11 +29,14 @@ export const queryPineconeVectorStoreAndQueryLLM = async (
       includeValues: true,
     },
   });
+
   // 5. Log the number of matches 
   console.log(`Found ${queryResponse.matches.length} matches...`);
+
   // 6. Log the question being asked
   console.log(`Asking question: ${question}...`);
   if (queryResponse.matches.length) {
+    
     // 7. Create an OpenAI instance and load the QAStuffChain
     const llm = new OpenAI({
       modelName: 'gpt-4'
@@ -160,7 +167,7 @@ export const updatePinecone = async (client, indexName, docs) => {
         batch = [];
       }
     }
-    
+
     // 8. Log the number of vectors updated
     console.log(`Pinecone index updated with ${chunks.length} vectors`);
   }
