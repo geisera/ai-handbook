@@ -6,6 +6,7 @@ This is a basic starter project for building with the following tools and APIs:
 - LangchainJS
 - Pineceone Vector Database
 - GPT3
+- x
 
 ### What we're building
 
