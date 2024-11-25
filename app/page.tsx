@@ -124,7 +124,7 @@ export default function Home() {
             result && <p className='text-gray-900'>{result}</p>
           }
           {/* consider removing this button from the UI once the embeddings are created ... */}
-          {/* <button onClick={createIndexAndEmbeddings}>Create index and embeddings</button> */}
+          <button onClick={createIndexAndEmbeddings}>Create index and embeddings</button>
         </div>
       </div>
     </main>
